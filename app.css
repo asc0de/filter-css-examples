@@ -25,3 +25,12 @@ article {
     background-color: #fafafa;
     flex: 1;
 }
+
+article .content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+article .content section {
+    margin-top: 20px;
+}
