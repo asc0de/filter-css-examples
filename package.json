@@ -1,0 +1,23 @@
+{
+  "name": "filter-css-examples",
+  "version": "1.0.0",
+  "description": "This project contains examples of usages css filter property on images.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asc0de/filter-css-examples.git"
+  },
+  "keywords": [
+    "filter",
+    "css"
+  ],
+  "author": "Vladislav Dekhanov <vladdekh@gmail.com> (vladislavdekhanov.xyz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asc0de/filter-css-examples/issues"
+  },
+  "homepage": "https://github.com/asc0de/filter-css-examples#readme"
+}
