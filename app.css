@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     height: 100vh;
     user-select: none;
+    font-family: 'Roboto';
 }
 
 header {
@@ -27,10 +28,19 @@ article {
 }
 
 article .content {
-    max-width: 600px;
+    max-width: 640px;
     margin: 0 auto;
 }
 
 article .content section {
     margin-top: 20px;
+}
+
+.card {
+    max-width: 640px;
+}
+
+.card .card-title {
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.0975);
 }
