@@ -39,9 +39,28 @@ article .content section {
 
 .card {
     max-width: 640px;
+    display: flex;
+    flex-direction: column;
 }
 
 .card .card-title {
-    width: 100%;
     border: 1px solid rgba(0,0,0,.0975);
+    height: 26px;
+    padding: 16px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.card .card-title .card-avatar {
+    border-radius: 50%;
+    background-image: url(example.jpg);
+    width: 40px;
+    height: 40px;
+}
+
+.card .card-title .example-title {
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: 1.1em;
 }
