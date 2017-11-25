@@ -41,6 +41,7 @@ article .content section {
     max-width: 640px;
     display: flex;
     flex-direction: column;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .card .card-title {
@@ -63,4 +64,8 @@ article .content section {
     padding-left: 15px;
     font-weight: 600;
     font-size: 1.1em;
+}
+
+.card .card-photo {
+    display: flex;
 }
