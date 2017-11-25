@@ -42,6 +42,7 @@ article .content section {
     display: flex;
     flex-direction: column;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
 }
 
 .card .card-title {
@@ -68,4 +69,37 @@ article .content section {
 
 .card .card-photo {
     display: flex;
+}
+
+.card .card-photo img.brightness {
+    filter: brightness(1.5);
+}
+
+.card .card-photo img.contrast {
+    filter: contrast(200%);
+}
+
+.card .card-photo img.drop-shadow {
+    filter: drop-shadow(16px 16px 20px blue);
+}
+
+.card .card-photo img.grayscale {
+    filter: grayscale(100%);
+}
+
+.card .card-photo img.hue-rotate {
+    filter: hue-rotate(90deg);
+}
+
+.card .card-photo img.invert {
+    filter: invert(75%);
+}
+
+.card .card-photo img.sepia {
+    filter: sepia(100%);
+}
+
+
+.card .card-photo img.saturate {
+    filter: saturate(30%);
 }
