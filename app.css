@@ -69,37 +69,42 @@ article .content section {
 
 .card .card-photo {
     display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-image: url(example.jpg);
+    height: 400px;
 }
 
-.card .card-photo img.brightness {
+.card .card-photo.brightness {
     filter: brightness(1.5);
 }
 
-.card .card-photo img.contrast {
+.card .card-photo.contrast {
     filter: contrast(200%);
 }
 
-.card .card-photo img.drop-shadow {
+.card .card-photo.drop-shadow {
     filter: drop-shadow(16px 16px 20px blue);
 }
 
-.card .card-photo img.grayscale {
+.card .card-photo.grayscale {
     filter: grayscale(100%);
 }
 
-.card .card-photo img.hue-rotate {
+.card .card-photo.hue-rotate {
     filter: hue-rotate(90deg);
 }
 
-.card .card-photo img.invert {
+.card .card-photo.invert {
     filter: invert(75%);
 }
 
-.card .card-photo img.sepia {
+.card .card-photo.sepia {
     filter: sepia(100%);
 }
 
 
-.card .card-photo img.saturate {
+.card .card-photo.saturate {
     filter: saturate(30%);
 }
